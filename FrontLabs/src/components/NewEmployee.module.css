@@ -1,0 +1,61 @@
+/* Contenedor principal */
+.container {
+  max-width: 900px; /* Ancho del contenedor */
+  margin: 8px auto; /* 3rem ≈ 48px */
+  padding: 100px;     /* 2rem ≈ 32px */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #212529;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Estilo de los inputs */
+.form input {
+  display: block;
+  width: 100%;
+  margin: 0.75rem 0 1.25rem 0;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  background-color: #f9f9f9;
+  color: #212529;
+}
+
+/* Botones */
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.buttonSave,
+.buttonCancel {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.buttonSave {
+  background-color: #007bff;
+  color: white;
+}
+
+.buttonSave:hover {
+  background-color: #0056b3;
+}
+
+.buttonCancel {
+  background-color: #6c757d;
+  color: white;
+}
+
+.buttonCancel:hover {
+  background-color: #5a6268;
+}
